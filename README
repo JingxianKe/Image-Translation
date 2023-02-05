@@ -1,0 +1,26 @@
+Pix2Pix GAN for Image Translation
+
+
+upscale low-resolution images to a higher resolution
+
+We are essentially converting an image belonging to
+the input data distribution to that of an image belonging to
+the output data distribution. In today’s technology world,
+translation problems pertaining to computer vision are very common,
+which amplifies the importance of today’s topic.
+
+
+we will apply building a Pix2Pix GAN to
+build real images from segmentation maps using the cityscapes dataset
+hosted by UC Berkeley.
+This dataset contains paired sets of segmentation masks and
+their corresponding real images of cityscapes.
+
+It is important to note that image translation
+can be divided into two categories:
+Paired translation and unpaired translation.
+Our task today falls under paired translation since
+specific segmentation masks will correspond to
+specific real objects.
+
+
